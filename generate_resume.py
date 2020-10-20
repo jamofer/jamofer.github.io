@@ -22,9 +22,17 @@ def create_md_file(resume):
     for media, url in resume['about_me']['contact'].items():
         md_file.new_line(f'[{media}]({url})')
 
-    md_file.new_header(level=2, title='Studies')
-    md_file.new_header(level=2, title='Career')
-    md_file.new_header(level=2, title='Projects')
+    md_file.new_header(level=1, title='Studies')
+    for study in resume['studies']:
+        md_file.new_line(study['title'])
+
+    md_file.new_header(level=1, title='Career')
+    for career in resume['career']:
+        md_file.new_line(career['company'])
+
+    md_file.new_header(level=1, title='Projects')
+    for project in resume['projects']:
+        md_file.new_line(project['title'])
 
     md_file.create_md_file()
 

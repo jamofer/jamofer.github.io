@@ -12,54 +12,54 @@ about_me:
   contact:
     linkedin: https://www.linkedin.com/in/francisco-javier-morag%C3%B3n-fern%C3%A1ndez-5759b8bb/
     github: https://github.com/jamofer
-    email: jamofer@gmail.com
+    email: mailto:jamofer@gmail.com
 career:
-  - MAHLE:
-      position: Software engineer
-      start_date: 10-2020
-      end_date:
-      location: Valencia (Spain)
-      description: >
-        Development of embedded software for automotive industry.
-      keywords: ["Automotive", "Embedded", "C", "Python", "ASPICE"]
-  - Casa Systems:
-      position: Software engineer
-      start_date: 05-2017
-      end_date: 10-2020
-      location: Valencia (Spain)
-      description: >
-        Development of an automated QA library for easier manual and automatic end to end tests.
-        Development of continuous integration stage and artifact management/deployment.
-        Development of LTE stack for small cells nodes.
-      keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Gitlab", "TDD"]
-  - Sistelbanda:
-      position: Software engineer
-      start_date: 05-2016
-      end_date: 09-2016
-      location: Paterna (Valencia, Spain)
-      description: >
-        Software development for Small Cells LTE nodes.
-      keywords: ["LTE", "Embedded", "Linux", "C", "SVN", "Jenkins"]
-  - Sistelbanda:
-      position: Quality assurance software engineer
-      start_date: 07-2015
-      end_date: 05-2016
-      location: Paterna (Valencia, Spain)
-      description: >
-        Automated end to end test development and test report for LTE small cells
-        nodes.
-      keywords: ["LTE", "Embedded", "Linux", "Python", "Robot-framework", "Testlink", "Jenkins"]
-  - Centro de Estudios Ambientales del Mediterráneo:
-      position: Intership software developer
-      start_date: 10-2014
-      end_date: 12-2014
-      location: Paterna (Valencia, Spain)
-      description: >
-        Development of real and simulated meteorological data collection, statistics
-        generation and real time graphic representation in a web application.
-      keywords: ["PHP", "HTML", "JS", "R-cran", "MySQL"]
+  - company: MAHLE
+    position: Software engineer
+    start_date: 10-2020
+    end_date:
+    location: Valencia (Spain)
+    description: >
+      Development of embedded software for automotive industry.
+    keywords: ["Automotive", "Embedded", "C", "Python", "ASPICE"]
+  - company: Casa Systems
+    position: Software engineer
+    start_date: 05-2017
+    end_date: 10-2020
+    location: Valencia (Spain)
+    description: >
+      Development of an automated QA library for easier manual and automatic end to end tests.
+      Development of continuous integration stage and artifact management/deployment.
+      Development of LTE stack for small cells nodes.
+    keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Gitlab", "TDD"]
+  - company: Sistelbanda
+    position: Software engineer
+    start_date: 05-2016
+    end_date: 09-2016
+    location: Paterna (Valencia, Spain)
+    description: >
+      Software development for Small Cells LTE nodes.
+    keywords: ["LTE", "Embedded", "Linux", "C", "SVN", "Jenkins"]
+  - company: Sistelbanda
+    position: Quality assurance software engineer
+    start_date: 07-2015
+    end_date: 05-2016
+    location: Paterna (Valencia, Spain)
+    description: >
+      Automated end to end test development and test report for LTE small cells
+      nodes.
+    keywords: ["LTE", "Embedded", "Linux", "Python", "Robot-framework", "Testlink", "Jenkins"]
+  - company: Centro de Estudios Ambientales del Mediterráneo
+    position: Intership software developer
+    start_date: 10-2014
+    end_date: 12-2014
+    location: Paterna (Valencia, Spain)
+    description: >
+      Development of real and simulated meteorological data collection, statistics
+      generation and real time graphic representation in a web application.
+    keywords: ["PHP", "HTML", "JS", "R-cran", "MySQL"]
 studies:
-  - Degree in Telematics Engineering:
+  - title: Degree in Telematics Engineering
     college: Universitat de València (Valencia, Spain)
     start_date: 09-2011
     end_date: 03-2016
@@ -68,21 +68,21 @@ studies:
       - notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
       - url: https://github.com/jamofer/OpenScorbot
 projects:
-  - Flask Desktop UI:
+  - title: Flask Desktop UI
     description: >
       Converts your flask APP into a cross platform desktop web APP.
     date: 08-2020
     url: https://github.com/jamofer/flask-desktop-ui
     status: in-progress
     keywords: ["Python", "Flask", "Chromium", "HTML", "UI"]
-  - Telegram Decabot:
+  - title: Telegram Decabot
     description: >
       Receive alerts in Telegram when your desired Decathlon product has stock.
     date: 08-2020
     url: https://github.com/jamofer/telegram-decabot
     status: in-progress
     keywords: ["Python", "Flask", "Chromium", "HTML", "UI"]
-  - Capture The Pixel:
+  - title: Capture The Pixel
     description: >
       Join the red or blue forces and steal the pixel of the opposite team.
       The team that captures the rival's pixel more times wins the round.
@@ -90,7 +90,7 @@ projects:
     url: https://jumbledevs.itch.io/capture-the-pixel
     status: done
     keywords: ["#LOWREZJAM2016", "Unity3D", "C#", "Node.js"]
-  - Spookie Boogie:
+  - title: Spookie Boogie
     description: >
       Help the ghost of Sir Clockengurch, who was a saxofon player, to kick 
       some teens out of his Manor when they summon him from hell using a Ouija board.
@@ -98,14 +98,14 @@ projects:
     url: https://jumbledevs.itch.io/spookie-boogie
     status: done
     keywords: ["GlobalGameJam2016", "Unity3D", "C#"]
-  - Valencia Bici:
+  - title: Valencia Bici
     description: >
       Check in real time the number of bikes or slots in all Valenbisi and Mibisi stations.
     date: 06-2015
     url: https://play.google.com/store/apps/details?id=com.jamoh.valenciabici
     status: done
     "keywords": ["Android", "Java", "API REST"]
-  - Buggy Jumper:
+  - title: Buggy Jumper
     description: >
       Drive a fancy red car that can jump and avoid all obstacles in the road.
     date: 06-2013
