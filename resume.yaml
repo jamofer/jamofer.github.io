@@ -1,23 +1,32 @@
 about_me:
   name: Francisco Javier Moragón Fernández
+  from: Valencia, Spain
+  date_of_birth: 11-04-1991
   description: >
-    I am Javier Moragón, a software developer with more than 3 years of professional 
+    I am Javier Moragón, a software developer with more than 4 years of professional
     experience that have worked mostly for mobile telecommunications systems.
 
     During my career I used a lot of programming languages such as Java, C#, JavaScript, 
-    PHP... but I am most proeficient with Python, C and C++.
+    PHP... but I am most proficient with Python, C and C++.
 
     I am passionate about software development, videogames and pizza. 
     In the projects section you can see some stuff I have been working on.
   contact:
-    linkedin: https://www.linkedin.com/in/francisco-javier-morag%C3%B3n-fern%C3%A1ndez-5759b8bb/
-    github: https://github.com/jamofer
-    email: mailto:jamofer@gmail.com
+    linkedin:
+      name: Javier Moragón
+      url: https://www.linkedin.com/in/francisco-javier-morag%C3%B3n-fern%C3%A1ndez-5759b8bb/
+    github:
+      name: Jamofer
+      url: https://github.com/jamofer
+    email:
+      name: jamofer@gmail.com
+      url: mailto:jamofer@gmail.com
+  photo_url: photo2.jpg
 career:
   - company: MAHLE
     position: Software engineer
     start_date: 10-2020
-    end_date:
+    end_date: Now
     location: Valencia (Spain)
     description: >
       Development of embedded software for automotive industry.
@@ -31,7 +40,7 @@ career:
       Development of an automated QA library for easier manual and automatic end to end tests.
       Development of continuous integration stage and artifact management/deployment.
       Development of LTE stack for small cells nodes.
-    keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Gitlab", "TDD"]
+    keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Docker", "Gitlab", "TDD"]
   - company: Sistelbanda
     position: Software engineer
     start_date: 05-2016
@@ -49,7 +58,7 @@ career:
       Automated end to end test development and test report for LTE small cells
       nodes.
     keywords: ["LTE", "Embedded", "Linux", "Python", "Robot-framework", "Testlink", "Jenkins"]
-  - company: Centro de Estudios Ambientales del Mediterráneo
+  - company: CEAM
     position: Intership software developer
     start_date: 10-2014
     end_date: 12-2014
@@ -64,9 +73,9 @@ studies:
     start_date: 09-2011
     end_date: 03-2016
     project:
-      - title: Hardware and software controller redesign and replacement for the commercial robot SCORBOT ER-IX
-      - notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
-      - url: https://github.com/jamofer/OpenScorbot
+      title: Hardware and software controller redesign and replacement for the commercial robot SCORBOT ER-IX
+      notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
+      url: https://github.com/jamofer/OpenScorbot
 projects:
   - title: Flask Desktop UI
     description: >
