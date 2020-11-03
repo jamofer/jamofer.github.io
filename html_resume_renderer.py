@@ -49,6 +49,7 @@ def _career(html_file, resume):
             start_date=career['start_date'],
             end_date=career['end_date'],
             text=career['description'],
+            url=career['url'] or '#',
             keywords=career['keywords']
         ))
     html_file.add_element(TimelineElements('Career', timeline_studies))
@@ -78,6 +79,7 @@ class HeaderElement(object):
         linkedin = f'<i class="fa fa-linkedin contact"></i>{self.contact["linkedin"]["name"]}'
         github = f'<i class="fa fa-github contact"></i>{self.contact["github"]["name"]}'
         email = f'<i class="fa fa-envelope contact"></i>{self.contact["email"]["name"]}'
+        phone = f'<i class="fa fa-phone contact"></i>{self.contact["phone"]["name"]}'
 
         location = f'<i class="fa fa-home contact"></i>{self.location}'
         birth = f'<i class="fa fa-birthday-cake contact"></i>{self.date_of_birth}'
@@ -88,8 +90,9 @@ class HeaderElement(object):
             f'<a class="contact" href="#" >{location}</a>' +
             f'<a class="contact" href="#" >{birth}</a>' +
             '<hr class="contact" />' +
-            f'<a class="contact" href="{self.contact["linkedin"]["url"]}" >{linkedin}</a>' +
+            f'<a class="contact" href="{self.contact["phone"]["url"]}" >{phone}</a>' +
             f'<a class="contact" href="mailto:{self.contact["email"]["url"]}" >{email}</a>' +
+            f'<a class="contact" href="{self.contact["linkedin"]["url"]}" >{linkedin}</a>' +
             f'<a class="contact" href="{self.contact["github"]["url"]}" >{github}</a>'
             '</div>'
         )
@@ -146,7 +149,7 @@ class TimelineElement(object):
         return (
             f'<a target="_blank" href="{self.url}">{self.title}</a>'
             f'<a href="#" class="date">{self.date}</a>'
-            f'<p>{self.text}</br>'
+            f'<p>{self.text}'
             f'{" ".join(badges)}</p>'
         )
 

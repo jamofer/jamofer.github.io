@@ -7,7 +7,7 @@ about_me:
     experience that have worked mostly for mobile telecommunications systems.
 
     During my career I used a lot of programming languages such as Java, C#, JavaScript, 
-    PHP... but I am most proficient with Python, C and C++.
+    PHP... but I am more proficient with Python, C and C++.
 
     I am passionate about software development, videogames and pizza. 
     In the projects section you can see some stuff I have been working on.
@@ -21,6 +21,9 @@ about_me:
     email:
       name: jamofer@gmail.com
       url: mailto:jamofer@gmail.com
+    phone:
+      name: +34 000 00 00 00
+      url: tel:+34000000000
   photo_url: photo2.jpg
 career:
   - company: MAHLE
@@ -28,6 +31,7 @@ career:
     start_date: 10-2020
     end_date: Now
     location: Valencia (Spain)
+    url: https://www.mahle.com
     description: >
       Development of embedded software for automotive industry.
     keywords: ["Automotive", "Embedded", "C", "Python", "ASPICE"]
@@ -36,7 +40,8 @@ career:
     start_date: 05-2017
     end_date: 10-2020
     location: Valencia (Spain)
-    description: >
+    url: https://www.casa-systems.com
+    description: |
       Development of an automated QA library for easier manual and automatic end to end tests.
       Development of continuous integration stage and artifact management/deployment.
       Development of LTE stack for small cells nodes.
@@ -46,6 +51,7 @@ career:
     start_date: 05-2016
     end_date: 09-2016
     location: Paterna (Valencia, Spain)
+    url:
     description: >
       Software development for Small Cells LTE nodes.
     keywords: ["LTE", "Embedded", "Linux", "C", "SVN", "Jenkins"]
@@ -54,6 +60,7 @@ career:
     start_date: 07-2015
     end_date: 05-2016
     location: Paterna (Valencia, Spain)
+    url:
     description: >
       Automated end to end test development and test report for LTE small cells
       nodes.
@@ -63,6 +70,7 @@ career:
     start_date: 10-2014
     end_date: 12-2014
     location: Paterna (Valencia, Spain)
+    url: http://www.ceam.es
     description: >
       Development of real and simulated meteorological data collection, statistics
       generation and real time graphic representation in a web application.
@@ -90,7 +98,7 @@ projects:
     date: 08-2020
     url: https://github.com/jamofer/telegram-decabot
     status: in-progress
-    keywords: ["Python", "Flask", "Chromium", "HTML", "UI"]
+    keywords: ["Telegram", "Python", "Telegram Bot API"]
   - title: Capture The Pixel
     description: >
       Join the red or blue forces and steal the pixel of the opposite team.
@@ -118,6 +126,6 @@ projects:
     description: >
       Drive a fancy red car that can jump and avoid all obstacles in the road.
     date: 06-2013
-    url: https://play.google.com/store/apps/details?id=com.jamoh.valenciabici
+    url: https://play.google.com/store/apps/details?id=com.jamoh.buggyjumper&hl=es
     status: done
     "keywords": ["Unity3D", "C#", "Blender", "Gimp"]

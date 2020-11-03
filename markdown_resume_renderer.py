@@ -44,5 +44,6 @@ def _contact(md_file, resume):
 
 def _description(md_file, resume):
     md_file.new_header(level=2, title='Description')
+    md_file.write('<img style="float: left;" src="photo2.jpg">')
     for line in resume['about_me']['description'].splitlines(keepends=True):
         md_file.new_line(line)

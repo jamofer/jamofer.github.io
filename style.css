@@ -21,6 +21,10 @@ div > p {
     padding-left: 30px;
 }
 
+li > p {
+    white-space: pre-wrap;
+}
+
 a.date {
     position: relative;
     left: calc(-100% - 3em);
@@ -73,4 +77,9 @@ i.contact {
 
 h3 {
     color: #606060;
+}
+
+@media print {
+    a:link {text-decoration: none !important;}
+    a[href]:after {content: none !important;}
 }
