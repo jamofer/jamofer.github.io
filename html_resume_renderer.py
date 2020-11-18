@@ -91,7 +91,7 @@ class HeaderElement(object):
             f'<a class="contact" href="#" >{birth}</a>' +
             '<hr class="contact" />' +
             f'<a class="contact" href="{self.contact["phone"]["url"]}" >{phone}</a>' +
-            f'<a class="contact" href="mailto:{self.contact["email"]["url"]}" >{email}</a>' +
+            f'<a class="contact" href="{self.contact["email"]["url"]}" >{email}</a>' +
             f'<a class="contact" href="{self.contact["linkedin"]["url"]}" >{linkedin}</a>' +
             f'<a class="contact" href="{self.contact["github"]["url"]}" >{github}</a>'
             '</div>'
