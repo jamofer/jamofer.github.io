@@ -26,15 +26,15 @@ about_me:
       url: tel:+34000000000
   photo_url: photo2.jpg
 career:
-  - company: MAHLE
+  - company: Creditas
     position: Software engineer
-    start_date: 10-2020
+    start_date: 12-2020
     end_date: Now
     location: Valencia (Spain)
-    url: https://www.mahle.com
+    url: https://www.creditas.com
     description: >
-      Development of embedded software for automotive industry.
-    keywords: ["Automotive", "Embedded", "C", "Python", "ASPICE"]
+      TBD.
+    keywords: ["Kotlin", "NodeJS", "ReactNative", "TDD", "GitHub"]
   - company: Casa Systems
     position: Software engineer
     start_date: 05-2017
@@ -42,9 +42,9 @@ career:
     location: Valencia (Spain)
     url: https://www.casa-systems.com
     description: |
-      Development of an automated QA library for easier manual and automatic end to end tests.
-      Development of continuous integration stage and artifact management/deployment.
       Development of LTE stack for small cells nodes.
+      Development of an automated QA library for automatic end to end tests with real radio environment.
+      Development of continuous integration stage and artifact management/deployment.
     keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Docker", "Gitlab", "TDD"]
   - company: Sistelbanda
     position: Software engineer
@@ -85,6 +85,13 @@ studies:
       notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
       url: https://github.com/jamofer/OpenScorbot
 projects:
+  - title: JAMD Viewer (Just Another Markdown viewer)
+    description: >
+      A multiplatform desktop markdown viewer powered by Flask Desktop UI.
+    date: 11-2020
+    url: https://github.com/jamofer/jamd-viewer
+    status: in-progress
+    keywords: ["Python", "Markdown", "FlaskDesktopUI"]
   - title: Flask Desktop UI
     description: >
       Converts your flask APP into a cross platform desktop web APP.
