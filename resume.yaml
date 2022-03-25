@@ -3,13 +3,16 @@ about_me:
   from: Valencia, Spain
   date_of_birth: 11-04-1991
   description: >
-    I am Javier Moragón, a software developer with more than 4 years of professional
+    I am Javier Moragón, a software engineer with more than 5 years of professional
     experience that have worked mostly for mobile telecommunications systems.
 
     During my career I used a lot of programming languages such as Java, C#, JavaScript, 
-    PHP... but I am more proficient with Python, C and C++.
+    PHP... but I am more proficient with Python, C, C++ and Kotlin. I'm used to work
+    doing pair programming and I love to do outside-in TDD.
 
-    I am passionate about software development, videogames and pizza. 
+    I do not believe in knowledge silos and I think communication (not only with developers)
+    it's one of the most important things in order to success as a software engineer.
+
     In the projects section you can see some stuff I have been working on.
   contact:
     linkedin:
@@ -24,7 +27,7 @@ about_me:
     phone:
       name: +34 000 00 00 00
       url: tel:+34000000000
-  photo_url: photo2.jpg
+  photo_url: photo4.jpg
 career:
   - company: Creditas
     position: Software engineer
@@ -33,8 +36,8 @@ career:
     location: Valencia (Spain)
     url: https://www.creditas.com
     description: >
-      TBD.
-    keywords: ["Kotlin", "NodeJS", "ReactNative", "TDD", "GitHub"]
+      Backend developer for fintech solutions.
+    keywords: ["Kotlin", "AWS", "Docker", "Kubernetes", "TypeScript", "React", "TDD", "GitHub", "CircleCI"]
   - company: Casa Systems
     position: Software engineer
     start_date: 05-2017
@@ -66,7 +69,7 @@ career:
       nodes.
     keywords: ["LTE", "Embedded", "Linux", "Python", "Robot-framework", "Testlink", "Jenkins"]
   - company: CEAM
-    position: Intership software developer
+    position: Intership software engineer
     start_date: 10-2014
     end_date: 12-2014
     location: Paterna (Valencia, Spain)
@@ -85,6 +88,13 @@ studies:
       notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
       url: https://github.com/jamofer/OpenScorbot
 projects:
+  - title: GUSH (GRUB UEFI HTTP Selector)
+    description: >
+      It allows you to configure your GRUB boot order remotely even your computer is off.
+    date: 01-2022
+    url: https://github.com/jamofer/grub-uefi-http-selector
+    status: in-progress
+    keywords: ["Python", "Flask", "CLI", "GRUB", "UEFI"]
   - title: JAMD Viewer (Just Another Markdown viewer)
     description: >
       A multiplatform desktop markdown viewer powered by Flask Desktop UI.
@@ -99,13 +109,6 @@ projects:
     url: https://github.com/jamofer/flask-desktop-ui
     status: in-progress
     keywords: ["Python", "Flask", "Chromium", "HTML", "UI"]
-  - title: Telegram Decabot
-    description: >
-      Receive alerts in Telegram when your desired Decathlon product has stock.
-    date: 08-2020
-    url: https://github.com/jamofer/telegram-decabot
-    status: in-progress
-    keywords: ["Telegram", "Python", "Telegram Bot API"]
   - title: Capture The Pixel
     description: >
       Join the red or blue forces and steal the pixel of the opposite team.

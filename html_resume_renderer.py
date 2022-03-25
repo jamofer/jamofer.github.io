@@ -4,7 +4,7 @@ from datetime import datetime
 def create_html_file(resume):
     html_file = HtmlFile(file_name='index.html', title=resume['about_me']['name'])
 
-    html_file.add_element(f'<h1>{resume["about_me"]["name"]}</h1><h3>Software Developer</h3></br>')
+    html_file.add_element(f'<h1>{resume["about_me"]["name"]}</h1><h3>Software engineer</h3></br>')
 
     _about_me(html_file, resume)
     _career(html_file, resume)
@@ -192,11 +192,11 @@ def is_valid_date(date_string):
 HEADER = '''<head>
   <meta charset="UTF-8">
   <title>{title}</title>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 </head>
 '''
 
