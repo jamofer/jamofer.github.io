@@ -27,14 +27,14 @@ def _about_me(html_file, resume):
 
 def _studies(html_file, resume):
     timeline_studies = []
-    for study in resume['studies']:
+    for study in resume['education']:
         timeline_studies.append(TimelineElement(
             title=study['title'] + '. ' + study['college'],
             start_date=study['start_date'],
             end_date=study['end_date'],
             text=_project(study['project']),
         ))
-    html_file.add_element(TimelineElements('Studies', timeline_studies))
+    html_file.add_element(TimelineElements('Education', timeline_studies))
 
 
 def _project(project):
@@ -63,7 +63,7 @@ def _projects(html_file, resume):
             start_date=project['date'],
             text=project['description'],
             url=project['url'],
-            keywords=project['keywords']
+            keywords=[]
         ))
     html_file.add_element(TimelineElements('Projects', timeline_studies))
 
@@ -211,7 +211,7 @@ ELEMENT_ENCLOUSRE = '''<div class="row">
 <div class="col-sm-2">
 {left}
 </div>
-<div class="col-sm-8">
+<div class="col-sm-9">
 {right}
 </div>
 </div>

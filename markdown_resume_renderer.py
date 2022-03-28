@@ -25,8 +25,8 @@ def _career(md_file, resume):
 
 
 def _studies(md_file, resume):
-    md_file.new_header(level=1, title='Studies')
-    for study in resume['studies']:
+    md_file.new_header(level=1, title='Education')
+    for study in resume['education']:
         md_file.new_line(study['title'])
 
 
