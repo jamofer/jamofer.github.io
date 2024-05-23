@@ -9,7 +9,6 @@ def create_html_file(resume):
     _about_me(html_file, resume)
     _career(html_file, resume)
     _studies(html_file, resume)
-    _projects(html_file, resume)
 
     html_file.create_file()
 

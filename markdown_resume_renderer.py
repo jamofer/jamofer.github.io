@@ -7,7 +7,6 @@ def create_md_file(resume):
     _about_me(md_file, resume)
     _studies(md_file, resume)
     _career(md_file, resume)
-    _projects(md_file, resume)
 
     md_file.create_md_file()
 

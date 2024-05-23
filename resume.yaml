@@ -1,7 +1,7 @@
 about_me:
   name: Francisco Javier Moragón Fernández
   from: Valencia, Spain
-  date_of_birth: 11-04-1991
+  date_of_birth: 04-1991
   description: >
     I am Javier Moragón, a software engineer with more than 5 years of professional experience, mostly on mobile 
     telecommunications systems.
@@ -27,17 +27,26 @@ about_me:
       url: tel:+34000000000
   photo_url: photo4.jpg
 career:
+  - company: Casa Systems / Axyom.Core
+    position: Software engineer
+    start_date: 08-2022
+    end_date: Now
+    location: Valencia (Spain)
+    url: https://axyomcore.ai/
+    description: |
+      Build protocol stack software for LTE small cells.
+    keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Docker", "Gitlab", "TDD"]
   - company: Creditas
     position: Software engineer
     start_date: 12-2020
-    end_date: Now
+    end_date: 07-2022
     location: Valencia (Spain)
     url: https://www.creditas.com
     description: |
       Development of Human Resources Web portal in order to manage its employees and their benefits, managing banking processing systems.
-      Frontend and Backend Web development based on product-oriented micro-services.
-      Development of internal tools for micro-frontend based e2e testing.
-    keywords: ["Kotlin", "AWS", "Docker", "Micro-frontends", "TypeScript", "React", "TDD", "GitHub", "CircleCI"]
+      Frontend and Backend Web development based on large product-oriented micro-service systems.
+      Development of internal software tools for end to end testing.
+    keywords: ["Kotlin", "AWS", "Docker", "Kubernetes", "Micro-frontends", "React", "TDD", "GitHub", "CircleCI"]
   - company: Casa Systems
     position: Software engineer
     start_date: 05-2017
@@ -45,9 +54,9 @@ career:
     location: Valencia (Spain)
     url: https://www.casa-systems.com
     description: |
-      Development of LTE stack for small cells nodes.
-      Development of an automated QA library for automatic end to end tests with real radio environment.
-      Development of continuous integration stage and artifact management/deployment.
+      Build protocol stack software for LTE femto and pico cells, in the Apex4G Pebble and PicoStrand product lines.
+      Build QA software for end to end tests automation with real radio environment.
+      Mastered software development on bare-metal RTOS and Linux environment systems.
     keywords: ["LTE", "Embedded", "Linux", "C", "Python", "OpenAPI", "Robot-framework", "Docker", "Gitlab", "TDD"]
   - company: Sistelbanda
     position: Software engineer
@@ -87,32 +96,3 @@ education:
       title: Hardware and software controller redesign and replacement for the commercial robot SCORBOT ER-IX
       notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
       url: https://github.com/jamofer/OpenScorbot
-projects:
-  - title: GUSH (GRUB UEFI HTTP Selector)
-    description: >
-      It allows you to configure your GRUB boot order remotely even your computer is off.
-    date: 01-2022
-    url: https://github.com/jamofer/grub-uefi-http-selector
-    status: in-progress
-    keywords: ["Python", "Flask", "CLI", "GRUB", "UEFI"]
-  - title: Flask Desktop UI
-    description: >
-      Converts your flask APP into a cross platform desktop web APP.
-    date: 08-2020
-    url: https://github.com/jamofer/flask-desktop-ui
-    status: in-progress
-    keywords: ["Python", "Flask", "Chromium", "HTML", "UI"]
-  - title: Valencia Bici
-    description: >
-      Check in real time the number of bikes or slots in all Valenbisi and Mibisi stations.
-    date: 06-2015
-    url: https://play.google.com/store/apps/details?id=com.jamoh.valenciabici
-    status: done
-    keywords: ["Android", "Java", "API REST"]
-  - title: Buggy Jumper
-    description: >
-      Drive a fancy red car that can jump and avoid all obstacles in the road.
-    date: 06-2013
-    url: https://play.google.com/store/apps/details?id=com.jamoh.buggyjumper&hl=es
-    status: done
-    keywords: ["Unity3D", "C#", "Blender", "Gimp"]
