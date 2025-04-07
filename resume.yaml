@@ -3,21 +3,22 @@ about_me:
   from: Valencia, Spain
   date_of_birth: 04-1991
   description: >
-    I am Javier Moragón, a software engineer with more than 5 years of professional experience, mostly on mobile 
+    I am Javier Moragón, a software engineer with over 10 years of professional experience, primarily in mobile
     telecommunications systems.
 
-    During my career I used a lot of programming languages such as Java, C#, JavaScript, 
-    PHP... but I am more proficient with Python, C, C++ and Kotlin. I'm used to
-    do pair programming and I love doing outside-in TDD.
+    Throughout my career, I have worked with a wide range of programming languages, including Java, C#,
+    JavaScript, and PHP. However, I am most proficient in Python, C, C++, and Kotlin. I have extensive
+    experience with pair programming, outside-in TDD, and clean code practices to ensure maintainable
+    and easy-to-understand code.
 
-    I do not believe in knowledge silos and I think communication (not only between developers)
-    it's one of the most important things in order to succeed as a software engineer.
+    I strongly believe in knowledge sharing and effective communication across the entire product team, not just
+    among developers, as a key factor for success in software engineering.
   contact:
     linkedin:
       name: javier-moragon
       url: https://www.linkedin.com/in/javier-moragon
     github:
-      name: Jamofer
+      name: jamofer
       url: https://github.com/jamofer
     email:
       name: jamofer@gmail.com
@@ -30,7 +31,7 @@ career:
   - company: Casa Systems / Axyom.Core
     position: Software engineer
     start_date: 08-2022
-    end_date: Now
+    end_date: 12-2024
     location: Valencia (Spain)
     url: https://axyomcore.ai/
     description: |
@@ -94,5 +95,5 @@ education:
     end_date: 03-2016
     project:
       title: Hardware and software controller redesign and replacement for the commercial robot SCORBOT ER-IX
-      notes: Rotary Club Valencia Centro Award. Best degree final project of class of 2016.
+      notes: Rotary Club Valencia Centro Award for the best final degree project of the class of 2016.
       url: https://github.com/jamofer/OpenScorbot
